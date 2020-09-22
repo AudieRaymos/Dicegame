@@ -7,4 +7,7 @@ function rollDice () {
            alert('Game over, no more rolls!');
            break;
        }
+       if (roll < 5){
+           continue;
+       }
 }
